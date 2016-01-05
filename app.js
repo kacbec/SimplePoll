@@ -66,6 +66,6 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
+app.listen(80);
 
 module.exports = app;
